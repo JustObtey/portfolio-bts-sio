@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Consolas;
+    src: url(FONTS/Consolas-Font/CONSOLA.TTF);
+}
+
+@font-face {
+    font-family: TypeMachine;
+    src: url(FONTS/type_machine/Type_Machine.ttf);
+}
+
+body {
+    font-family: Consolas;
+    background-color: #000000;
+}
+
+h1 {
+    font-family: TypeMachine;
+    color: #eef5ff
+}
+
+h2 {
+    font-family: TypeMachine;
+    color: #eef5ff
+}
+
+h3 {
+    font-family: TypeMachine;
+    color: #eef5ff
+}
+
+.text {
+    color: #eef5ff;
+}
+
+.background {
+    background-image: url(IMG/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    background-color: rgb(30, 30, 30);
+    width: 650px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.colors-container {
+    background-color: rgb(30, 30, 30);
+    width: 650px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.colors-chart {
+    width: 100px;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 32px;
+}
+
+.img-container {
+    background-color: rgb(30, 30, 30);
+    width: 650px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 16px;
+}
